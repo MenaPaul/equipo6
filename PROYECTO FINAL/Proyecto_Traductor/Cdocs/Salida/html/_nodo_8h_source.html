@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ProyectoTraductor: Fichero Fuente C:/Users/LENOVO/Documents/GitHub/Team8-DataStructure-NRC3294/II-PARCIAL/Proyecto_Traductor/Proyecto_Traductor/Nodo.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">ProyectoTraductor
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d12a3fe3e45691496fba7ed6579283ba.html">Proyecto_Traductor</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Nodo.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_nodo_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include&lt;string&gt;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="class_nodo.html">    3</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_nodo.html">Nodo</a></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="class_nodo.html#af12c78bd13148aadeb247d717600dbd3">    7</a></span>&#160;    std::string <a class="code" href="class_nodo.html#af12c78bd13148aadeb247d717600dbd3">palabra</a>;</div>
+<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="class_nodo.html#af61a96dd48c627326e94dc3b87ac5ab0">    8</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_nodo.html#af61a96dd48c627326e94dc3b87ac5ab0">fin_palabra</a>;</div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="class_nodo.html#a4d3126f75e055232f264f5e1a5b3b455">    9</a></span>&#160;    <a class="code" href="class_nodo.html">Nodo</a>**<a class="code" href="class_nodo.html#a4d3126f75e055232f264f5e1a5b3b455">hijo</a>=(<a class="code" href="class_nodo.html">Nodo</a>**)calloc(26,<span class="keyword">sizeof</span>(<a class="code" href="class_nodo.html">Nodo</a>*));</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="class_nodo.html#ac30bd1bed827ef8784fd3cebd032e9a4">Nodo</a>(std::string, <span class="keywordtype">bool</span>);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="class_nodo.html#ac30bd1bed827ef8784fd3cebd032e9a4">Nodo</a>();</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="class_nodo.html#a8a1dd01c95ff7bcb1182318498e834f9">~Nodo</a>();</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="class_nodo.html#ab575f2a5af94de2e2f02ad8b1cfe1588">   13</a></span>&#160;    <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="class_radix_tree.html">RadixTree</a>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;};</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="ttc" id="aclass_nodo_html"><div class="ttname"><a href="class_nodo.html">Nodo</a></div><div class="ttdef"><b>Definition:</b> <a href="_nodo_8h_source.html#l00003">Nodo.h:4</a></div></div>
+<div class="ttc" id="aclass_nodo_html_a4d3126f75e055232f264f5e1a5b3b455"><div class="ttname"><a href="class_nodo.html#a4d3126f75e055232f264f5e1a5b3b455">Nodo::hijo</a></div><div class="ttdeci">Nodo ** hijo</div><div class="ttdef"><b>Definition:</b> <a href="_nodo_8h_source.html#l00009">Nodo.h:9</a></div></div>
+<div class="ttc" id="aclass_nodo_html_a8a1dd01c95ff7bcb1182318498e834f9"><div class="ttname"><a href="class_nodo.html#a8a1dd01c95ff7bcb1182318498e834f9">Nodo::~Nodo</a></div><div class="ttdeci">~Nodo()</div><div class="ttdef"><b>Definition:</b> <a href="_nodo_8cpp_source.html#l00026">Nodo.cpp:26</a></div></div>
+<div class="ttc" id="aclass_nodo_html_ac30bd1bed827ef8784fd3cebd032e9a4"><div class="ttname"><a href="class_nodo.html#ac30bd1bed827ef8784fd3cebd032e9a4">Nodo::Nodo</a></div><div class="ttdeci">Nodo()</div><div class="ttdef"><b>Definition:</b> <a href="_nodo_8cpp_source.html#l00016">Nodo.cpp:16</a></div></div>
+<div class="ttc" id="aclass_nodo_html_af12c78bd13148aadeb247d717600dbd3"><div class="ttname"><a href="class_nodo.html#af12c78bd13148aadeb247d717600dbd3">Nodo::palabra</a></div><div class="ttdeci">std::string palabra</div><div class="ttdef"><b>Definition:</b> <a href="_nodo_8h_source.html#l00007">Nodo.h:7</a></div></div>
+<div class="ttc" id="aclass_nodo_html_af61a96dd48c627326e94dc3b87ac5ab0"><div class="ttname"><a href="class_nodo.html#af61a96dd48c627326e94dc3b87ac5ab0">Nodo::fin_palabra</a></div><div class="ttdeci">bool fin_palabra</div><div class="ttdef"><b>Definition:</b> <a href="_nodo_8h_source.html#l00008">Nodo.h:8</a></div></div>
+<div class="ttc" id="aclass_radix_tree_html"><div class="ttname"><a href="class_radix_tree.html">RadixTree</a></div><div class="ttdef"><b>Definition:</b> <a href="_radix_tree_8h_source.html#l00003">RadixTree.h:4</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

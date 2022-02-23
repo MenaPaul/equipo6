@@ -1,0 +1,186 @@
+\hypertarget{class_radix_tree}{}\doxysection{Referencia de la Clase Radix\+Tree}
+\label{class_radix_tree}\index{RadixTree@{RadixTree}}
+
+
+{\ttfamily \#include $<$Radix\+Tree.\+h$>$}
+
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_radix_tree_a89b0c42d1aef9e53c1a3df4e856de6dc}{Radix\+Tree}} ()=default
+\item 
+void \mbox{\hyperlink{class_radix_tree_a4470ee19b4fda0f97b567aab2d6e253d}{mover\+\_\+nodos\+\_\+hijos}} (\mbox{\hyperlink{class_nodo}{Nodo}} $\ast$\&, \mbox{\hyperlink{class_nodo}{Nodo}} $\ast$\&)
+\item 
+int \mbox{\hyperlink{class_radix_tree_abc2619fa6e795915b183939ed24771d2}{get\+\_\+posicion\+\_\+corte}} (\mbox{\hyperlink{class_nodo}{Nodo}} $\ast$, std\+::string)
+\item 
+bool \mbox{\hyperlink{class_radix_tree_af060150b29dad53ba39a1cf29e1d5bcc}{hoja\+\_\+izquierda}} (\mbox{\hyperlink{class_nodo}{Nodo}} $\ast$)
+\item 
+\mbox{\hyperlink{class_nodo}{Nodo}} $\ast$ \mbox{\hyperlink{class_radix_tree_ad57ab5a8d16ef34352c2a18d9a3f157a}{dividir\+\_\+nodos}} (\mbox{\hyperlink{class_nodo}{Nodo}} $\ast$\&, std\+::string, int)
+\item 
+\mbox{\hyperlink{class_nodo}{Nodo}} $\ast$ \mbox{\hyperlink{class_radix_tree_af87a8be1cdcae68012206ff3d785c7d0}{insertar}} (std\+::string, \mbox{\hyperlink{class_nodo}{Nodo}} $\ast$\&)
+\item 
+bool \mbox{\hyperlink{class_radix_tree_a3717f0c9c29c52f225614c04c1939b85}{buscar}} (\mbox{\hyperlink{class_nodo}{Nodo}} $\ast$, std\+::string)
+\item 
+bool \mbox{\hyperlink{class_radix_tree_aa5b2c0f45ebd9e0509611a76df9d17d0}{eliminar}} (\mbox{\hyperlink{class_nodo}{Nodo}} $\ast$, std\+::string)
+\item 
+void \mbox{\hyperlink{class_radix_tree_ae369400784ab9515006abd3ea3124b58}{imprimir}} (\mbox{\hyperlink{class_nodo}{Nodo}} $\ast$)
+\item 
+void \mbox{\hyperlink{class_radix_tree_a1a4d6628a2f00fa6c88d31faafe6d76e}{set\+Sufijo}} (std\+::string)
+\end{DoxyCompactItemize}
+\doxysubsection*{Atributos públicos}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{class_radix_tree_aeaf53a7077bf7a40c4744eb877f0b930}{sufijo}}
+\item 
+std\+::string \mbox{\hyperlink{class_radix_tree_a7b9e7401cedf48ef53bcce794d9fcd82}{suf}}
+\item 
+int \mbox{\hyperlink{class_radix_tree_a256c86cfd236a1afa9fa67f117155250}{pos}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+
+
+Definición en la línea 3 del archivo Radix\+Tree.\+h.
+
+
+
+\doxysubsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{class_radix_tree_a89b0c42d1aef9e53c1a3df4e856de6dc}\label{class_radix_tree_a89b0c42d1aef9e53c1a3df4e856de6dc}} 
+\index{RadixTree@{RadixTree}!RadixTree@{RadixTree}}
+\index{RadixTree@{RadixTree}!RadixTree@{RadixTree}}
+\doxysubsubsection{\texorpdfstring{RadixTree()}{RadixTree()}}
+{\footnotesize\ttfamily Radix\+Tree\+::\+Radix\+Tree (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{class_radix_tree_a3717f0c9c29c52f225614c04c1939b85}\label{class_radix_tree_a3717f0c9c29c52f225614c04c1939b85}} 
+\index{RadixTree@{RadixTree}!buscar@{buscar}}
+\index{buscar@{buscar}!RadixTree@{RadixTree}}
+\doxysubsubsection{\texorpdfstring{buscar()}{buscar()}}
+{\footnotesize\ttfamily bool Radix\+Tree\+::buscar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_nodo}{Nodo}} $\ast$}]{raiz,  }\item[{std\+::string}]{palabra }\end{DoxyParamCaption})}
+
+La función \char`\"{}buscar\char`\"{} realiza la busqueda de una palabra en el arbol 
+
+Definición en la línea 107 del archivo Radix\+Tree.\+cpp.
+
+\mbox{\Hypertarget{class_radix_tree_ad57ab5a8d16ef34352c2a18d9a3f157a}\label{class_radix_tree_ad57ab5a8d16ef34352c2a18d9a3f157a}} 
+\index{RadixTree@{RadixTree}!dividir\_nodos@{dividir\_nodos}}
+\index{dividir\_nodos@{dividir\_nodos}!RadixTree@{RadixTree}}
+\doxysubsubsection{\texorpdfstring{dividir\_nodos()}{dividir\_nodos()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_nodo}{Nodo}} $\ast$ Radix\+Tree\+::dividir\+\_\+nodos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_nodo}{Nodo}} $\ast$\&}]{raiz,  }\item[{std\+::string}]{izq,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+La función \char`\"{}dividir\+\_\+nodos\char`\"{} realiza la division de nodos cuando existe una repeticion de caracteres 
+
+Definición en la línea 44 del archivo Radix\+Tree.\+cpp.
+
+\mbox{\Hypertarget{class_radix_tree_aa5b2c0f45ebd9e0509611a76df9d17d0}\label{class_radix_tree_aa5b2c0f45ebd9e0509611a76df9d17d0}} 
+\index{RadixTree@{RadixTree}!eliminar@{eliminar}}
+\index{eliminar@{eliminar}!RadixTree@{RadixTree}}
+\doxysubsubsection{\texorpdfstring{eliminar()}{eliminar()}}
+{\footnotesize\ttfamily bool Radix\+Tree\+::eliminar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_nodo}{Nodo}} $\ast$}]{raiz,  }\item[{std\+::string}]{palabra }\end{DoxyParamCaption})}
+
+La función \char`\"{}eliminar\char`\"{} realiza la eliminacion de una palabra al arbol 
+
+Definición en la línea 128 del archivo Radix\+Tree.\+cpp.
+
+\mbox{\Hypertarget{class_radix_tree_abc2619fa6e795915b183939ed24771d2}\label{class_radix_tree_abc2619fa6e795915b183939ed24771d2}} 
+\index{RadixTree@{RadixTree}!get\_posicion\_corte@{get\_posicion\_corte}}
+\index{get\_posicion\_corte@{get\_posicion\_corte}!RadixTree@{RadixTree}}
+\doxysubsubsection{\texorpdfstring{get\_posicion\_corte()}{get\_posicion\_corte()}}
+{\footnotesize\ttfamily int Radix\+Tree\+::get\+\_\+posicion\+\_\+corte (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_nodo}{Nodo}} $\ast$}]{aux,  }\item[{std\+::string}]{key }\end{DoxyParamCaption})}
+
+La función \char`\"{}get\+\_\+posicion\+\_\+corte\char`\"{} obtiene el punto en el que el la palabra se tiene que cortar para formar otro nodo 
+
+Definición en la línea 22 del archivo Radix\+Tree.\+cpp.
+
+\mbox{\Hypertarget{class_radix_tree_af060150b29dad53ba39a1cf29e1d5bcc}\label{class_radix_tree_af060150b29dad53ba39a1cf29e1d5bcc}} 
+\index{RadixTree@{RadixTree}!hoja\_izquierda@{hoja\_izquierda}}
+\index{hoja\_izquierda@{hoja\_izquierda}!RadixTree@{RadixTree}}
+\doxysubsubsection{\texorpdfstring{hoja\_izquierda()}{hoja\_izquierda()}}
+{\footnotesize\ttfamily bool Radix\+Tree\+::hoja\+\_\+izquierda (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_nodo}{Nodo}} $\ast$}]{raiz }\end{DoxyParamCaption})}
+
+La función \char`\"{}hoja\+\_\+izquierda\char`\"{} obtiene el dato si existe o no una hoja a la izquierda 
+
+Definición en la línea 33 del archivo Radix\+Tree.\+cpp.
+
+\mbox{\Hypertarget{class_radix_tree_ae369400784ab9515006abd3ea3124b58}\label{class_radix_tree_ae369400784ab9515006abd3ea3124b58}} 
+\index{RadixTree@{RadixTree}!imprimir@{imprimir}}
+\index{imprimir@{imprimir}!RadixTree@{RadixTree}}
+\doxysubsubsection{\texorpdfstring{imprimir()}{imprimir()}}
+{\footnotesize\ttfamily void Radix\+Tree\+::imprimir (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_nodo}{Nodo}} $\ast$}]{raiz }\end{DoxyParamCaption})}
+
+La función \char`\"{}imprimir\char`\"{} realiza la impresion de las palabras que constan en el arbol 
+
+Definición en la línea 157 del archivo Radix\+Tree.\+cpp.
+
+\mbox{\Hypertarget{class_radix_tree_af87a8be1cdcae68012206ff3d785c7d0}\label{class_radix_tree_af87a8be1cdcae68012206ff3d785c7d0}} 
+\index{RadixTree@{RadixTree}!insertar@{insertar}}
+\index{insertar@{insertar}!RadixTree@{RadixTree}}
+\doxysubsubsection{\texorpdfstring{insertar()}{insertar()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_nodo}{Nodo}} $\ast$ Radix\+Tree\+::insertar (\begin{DoxyParamCaption}\item[{std\+::string}]{key,  }\item[{\mbox{\hyperlink{class_nodo}{Nodo}} $\ast$\&}]{raiz }\end{DoxyParamCaption})}
+
+La función \char`\"{}insertar\char`\"{} realiza la insercion de una palabra al arbol 
+
+Definición en la línea 77 del archivo Radix\+Tree.\+cpp.
+
+\mbox{\Hypertarget{class_radix_tree_a4470ee19b4fda0f97b567aab2d6e253d}\label{class_radix_tree_a4470ee19b4fda0f97b567aab2d6e253d}} 
+\index{RadixTree@{RadixTree}!mover\_nodos\_hijos@{mover\_nodos\_hijos}}
+\index{mover\_nodos\_hijos@{mover\_nodos\_hijos}!RadixTree@{RadixTree}}
+\doxysubsubsection{\texorpdfstring{mover\_nodos\_hijos()}{mover\_nodos\_hijos()}}
+{\footnotesize\ttfamily void Radix\+Tree\+::mover\+\_\+nodos\+\_\+hijos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_nodo}{Nodo}} $\ast$\&}]{raiz,  }\item[{\mbox{\hyperlink{class_nodo}{Nodo}} $\ast$\&}]{aux }\end{DoxyParamCaption})}
+
+La función \char`\"{}\+Mover\+\_\+\+Nodos\+\_\+hijos\char`\"{} realiza el cambio de nodos cuando una palabra se segmenta en otras 
+
+Definición en la línea 7 del archivo Radix\+Tree.\+cpp.
+
+\mbox{\Hypertarget{class_radix_tree_a1a4d6628a2f00fa6c88d31faafe6d76e}\label{class_radix_tree_a1a4d6628a2f00fa6c88d31faafe6d76e}} 
+\index{RadixTree@{RadixTree}!setSufijo@{setSufijo}}
+\index{setSufijo@{setSufijo}!RadixTree@{RadixTree}}
+\doxysubsubsection{\texorpdfstring{setSufijo()}{setSufijo()}}
+{\footnotesize\ttfamily void Radix\+Tree\+::set\+Sufijo (\begin{DoxyParamCaption}\item[{std\+::string}]{a }\end{DoxyParamCaption})}
+
+La función \char`\"{}set\+Sufijo\char`\"{} obtiene el dato Sufijo 
+
+Definición en la línea 179 del archivo Radix\+Tree.\+cpp.
+
+
+
+\doxysubsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{class_radix_tree_a256c86cfd236a1afa9fa67f117155250}\label{class_radix_tree_a256c86cfd236a1afa9fa67f117155250}} 
+\index{RadixTree@{RadixTree}!pos@{pos}}
+\index{pos@{pos}!RadixTree@{RadixTree}}
+\doxysubsubsection{\texorpdfstring{pos}{pos}}
+{\footnotesize\ttfamily int Radix\+Tree\+::pos}
+
+
+
+Definición en la línea 8 del archivo Radix\+Tree.\+h.
+
+\mbox{\Hypertarget{class_radix_tree_a7b9e7401cedf48ef53bcce794d9fcd82}\label{class_radix_tree_a7b9e7401cedf48ef53bcce794d9fcd82}} 
+\index{RadixTree@{RadixTree}!suf@{suf}}
+\index{suf@{suf}!RadixTree@{RadixTree}}
+\doxysubsubsection{\texorpdfstring{suf}{suf}}
+{\footnotesize\ttfamily std\+::string Radix\+Tree\+::suf}
+
+
+
+Definición en la línea 7 del archivo Radix\+Tree.\+h.
+
+\mbox{\Hypertarget{class_radix_tree_aeaf53a7077bf7a40c4744eb877f0b930}\label{class_radix_tree_aeaf53a7077bf7a40c4744eb877f0b930}} 
+\index{RadixTree@{RadixTree}!sufijo@{sufijo}}
+\index{sufijo@{sufijo}!RadixTree@{RadixTree}}
+\doxysubsubsection{\texorpdfstring{sufijo}{sufijo}}
+{\footnotesize\ttfamily std\+::string Radix\+Tree\+::sufijo}
+
+
+
+Definición en la línea 6 del archivo Radix\+Tree.\+h.
+
+
+
+La documentación para esta clase fue generada a partir de los siguientes ficheros\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+LENOVO/\+Documents/\+Git\+Hub/\+Team8-\/\+Data\+Structure-\/\+NRC3294/\+II-\/\+PARCIAL/\+Proyecto\+\_\+\+Traductor/\+Proyecto\+\_\+\+Traductor/\mbox{\hyperlink{_radix_tree_8h}{Radix\+Tree.\+h}}\item 
+C\+:/\+Users/\+LENOVO/\+Documents/\+Git\+Hub/\+Team8-\/\+Data\+Structure-\/\+NRC3294/\+II-\/\+PARCIAL/\+Proyecto\+\_\+\+Traductor/\+Proyecto\+\_\+\+Traductor/\mbox{\hyperlink{_radix_tree_8cpp}{Radix\+Tree.\+cpp}}\end{DoxyCompactItemize}

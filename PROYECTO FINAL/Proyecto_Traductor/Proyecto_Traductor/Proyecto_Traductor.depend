@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1630782734 source:d:\2. i. de software\semestre\3er semestre\estructura de datos\team4-datastructure-final\team4-datastructure-final\ii-parcial\proyecto_traductor\proyecto_traductor\main.cpp
+	"Nodo.h"
+	"RadixTree.h"
+	"Menu.h"
+	"conio.h"
+	<fstream>
+	<iostream>
+	<stdio.h>
+	<clocale>
+	<windows.h>
+
+1630892695 d:\2. i. de software\semestre\3er semestre\estructura de datos\team4-datastructure-final\team4-datastructure-final\ii-parcial\proyecto_traductor\proyecto_traductor\nodo.h
+	<string>
+	"stdlib.h"
+
+1630782734 d:\2. i. de software\semestre\3er semestre\estructura de datos\team4-datastructure-final\team4-datastructure-final\ii-parcial\proyecto_traductor\proyecto_traductor\radixtree.h
+	"Nodo.h"
+
+1630782733 d:\2. i. de software\semestre\3er semestre\estructura de datos\team4-datastructure-final\team4-datastructure-final\ii-parcial\proyecto_traductor\proyecto_traductor\menu.h
+
+1630782733 source:d:\2. i. de software\semestre\3er semestre\estructura de datos\team4-datastructure-final\team4-datastructure-final\ii-parcial\proyecto_traductor\proyecto_traductor\menu.cpp
+	"Menu.h"
+	<windows.h>
+	<iostream>
+	<conio.h>
+
+1630782733 source:d:\2. i. de software\semestre\3er semestre\estructura de datos\team4-datastructure-final\team4-datastructure-final\ii-parcial\proyecto_traductor\proyecto_traductor\nodo.cpp
+	"Nodo.h"
+	<iostream>
+
+1630782734 source:d:\2. i. de software\semestre\3er semestre\estructura de datos\team4-datastructure-final\team4-datastructure-final\ii-parcial\proyecto_traductor\proyecto_traductor\radixtree.cpp
+	"RadixTree.h"
+	<iostream>
+

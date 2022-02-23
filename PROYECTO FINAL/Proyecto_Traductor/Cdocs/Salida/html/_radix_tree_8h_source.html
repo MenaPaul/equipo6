@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ProyectoTraductor: Fichero Fuente C:/Users/LENOVO/Documents/GitHub/Team8-DataStructure-NRC3294/II-PARCIAL/Proyecto_Traductor/Proyecto_Traductor/RadixTree.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">ProyectoTraductor
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d12a3fe3e45691496fba7ed6579283ba.html">Proyecto_Traductor</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">RadixTree.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_radix_tree_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_nodo_8h.html">Nodo.h</a>&quot;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="class_radix_tree.html">    3</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_radix_tree.html">RadixTree</a></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="class_radix_tree.html#aeaf53a7077bf7a40c4744eb877f0b930">    6</a></span>&#160;    std::string <a class="code" href="class_radix_tree.html#aeaf53a7077bf7a40c4744eb877f0b930">sufijo</a>;</div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="class_radix_tree.html#a7b9e7401cedf48ef53bcce794d9fcd82">    7</a></span>&#160;    std::string <a class="code" href="class_radix_tree.html#a7b9e7401cedf48ef53bcce794d9fcd82">suf</a>;</div>
+<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="class_radix_tree.html#a256c86cfd236a1afa9fa67f117155250">    8</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_radix_tree.html#a256c86cfd236a1afa9fa67f117155250">pos</a>;</div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="class_radix_tree.html#a89b0c42d1aef9e53c1a3df4e856de6dc">    9</a></span>&#160;    <a class="code" href="class_radix_tree.html#a89b0c42d1aef9e53c1a3df4e856de6dc">RadixTree</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_radix_tree.html#a4470ee19b4fda0f97b567aab2d6e253d">mover_nodos_hijos</a>(<a class="code" href="class_nodo.html">Nodo</a>*&amp;, <a class="code" href="class_nodo.html">Nodo</a>*&amp;);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_radix_tree.html#abc2619fa6e795915b183939ed24771d2">get_posicion_corte</a>(<a class="code" href="class_nodo.html">Nodo</a>*, std::string);</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_radix_tree.html#af060150b29dad53ba39a1cf29e1d5bcc">hoja_izquierda</a>(<a class="code" href="class_nodo.html">Nodo</a>*);</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="class_nodo.html">Nodo</a>* <a class="code" href="class_radix_tree.html#ad57ab5a8d16ef34352c2a18d9a3f157a">dividir_nodos</a>(<a class="code" href="class_nodo.html">Nodo</a>*&amp;, std::string, <span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <a class="code" href="class_nodo.html">Nodo</a>* <a class="code" href="class_radix_tree.html#af87a8be1cdcae68012206ff3d785c7d0">insertar</a>(std::string, <a class="code" href="class_nodo.html">Nodo</a>*&amp;);</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_radix_tree.html#a3717f0c9c29c52f225614c04c1939b85">buscar</a>(<a class="code" href="class_nodo.html">Nodo</a>*, std::string);</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_radix_tree.html#aa5b2c0f45ebd9e0509611a76df9d17d0">eliminar</a>(<a class="code" href="class_nodo.html">Nodo</a>*, std::string);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_radix_tree.html#ae369400784ab9515006abd3ea3124b58">imprimir</a>(<a class="code" href="class_nodo.html">Nodo</a>*);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_radix_tree.html#a1a4d6628a2f00fa6c88d31faafe6d76e">setSufijo</a>(std::string);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;};</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="ttc" id="a_nodo_8h_html"><div class="ttname"><a href="_nodo_8h.html">Nodo.h</a></div></div>
+<div class="ttc" id="aclass_nodo_html"><div class="ttname"><a href="class_nodo.html">Nodo</a></div><div class="ttdef"><b>Definition:</b> <a href="_nodo_8h_source.html#l00003">Nodo.h:4</a></div></div>
+<div class="ttc" id="aclass_radix_tree_html"><div class="ttname"><a href="class_radix_tree.html">RadixTree</a></div><div class="ttdef"><b>Definition:</b> <a href="_radix_tree_8h_source.html#l00003">RadixTree.h:4</a></div></div>
+<div class="ttc" id="aclass_radix_tree_html_a1a4d6628a2f00fa6c88d31faafe6d76e"><div class="ttname"><a href="class_radix_tree.html#a1a4d6628a2f00fa6c88d31faafe6d76e">RadixTree::setSufijo</a></div><div class="ttdeci">void setSufijo(std::string)</div><div class="ttdef"><b>Definition:</b> <a href="_radix_tree_8cpp_source.html#l00179">RadixTree.cpp:179</a></div></div>
+<div class="ttc" id="aclass_radix_tree_html_a256c86cfd236a1afa9fa67f117155250"><div class="ttname"><a href="class_radix_tree.html#a256c86cfd236a1afa9fa67f117155250">RadixTree::pos</a></div><div class="ttdeci">int pos</div><div class="ttdef"><b>Definition:</b> <a href="_radix_tree_8h_source.html#l00008">RadixTree.h:8</a></div></div>
+<div class="ttc" id="aclass_radix_tree_html_a3717f0c9c29c52f225614c04c1939b85"><div class="ttname"><a href="class_radix_tree.html#a3717f0c9c29c52f225614c04c1939b85">RadixTree::buscar</a></div><div class="ttdeci">bool buscar(Nodo *, std::string)</div><div class="ttdef"><b>Definition:</b> <a href="_radix_tree_8cpp_source.html#l00107">RadixTree.cpp:107</a></div></div>
+<div class="ttc" id="aclass_radix_tree_html_a4470ee19b4fda0f97b567aab2d6e253d"><div class="ttname"><a href="class_radix_tree.html#a4470ee19b4fda0f97b567aab2d6e253d">RadixTree::mover_nodos_hijos</a></div><div class="ttdeci">void mover_nodos_hijos(Nodo *&amp;, Nodo *&amp;)</div><div class="ttdef"><b>Definition:</b> <a href="_radix_tree_8cpp_source.html#l00007">RadixTree.cpp:7</a></div></div>
+<div class="ttc" id="aclass_radix_tree_html_a7b9e7401cedf48ef53bcce794d9fcd82"><div class="ttname"><a href="class_radix_tree.html#a7b9e7401cedf48ef53bcce794d9fcd82">RadixTree::suf</a></div><div class="ttdeci">std::string suf</div><div class="ttdef"><b>Definition:</b> <a href="_radix_tree_8h_source.html#l00007">RadixTree.h:7</a></div></div>
+<div class="ttc" id="aclass_radix_tree_html_a89b0c42d1aef9e53c1a3df4e856de6dc"><div class="ttname"><a href="class_radix_tree.html#a89b0c42d1aef9e53c1a3df4e856de6dc">RadixTree::RadixTree</a></div><div class="ttdeci">RadixTree()=default</div></div>
+<div class="ttc" id="aclass_radix_tree_html_aa5b2c0f45ebd9e0509611a76df9d17d0"><div class="ttname"><a href="class_radix_tree.html#aa5b2c0f45ebd9e0509611a76df9d17d0">RadixTree::eliminar</a></div><div class="ttdeci">bool eliminar(Nodo *, std::string)</div><div class="ttdef"><b>Definition:</b> <a href="_radix_tree_8cpp_source.html#l00128">RadixTree.cpp:128</a></div></div>
+<div class="ttc" id="aclass_radix_tree_html_abc2619fa6e795915b183939ed24771d2"><div class="ttname"><a href="class_radix_tree.html#abc2619fa6e795915b183939ed24771d2">RadixTree::get_posicion_corte</a></div><div class="ttdeci">int get_posicion_corte(Nodo *, std::string)</div><div class="ttdef"><b>Definition:</b> <a href="_radix_tree_8cpp_source.html#l00022">RadixTree.cpp:22</a></div></div>
+<div class="ttc" id="aclass_radix_tree_html_ad57ab5a8d16ef34352c2a18d9a3f157a"><div class="ttname"><a href="class_radix_tree.html#ad57ab5a8d16ef34352c2a18d9a3f157a">RadixTree::dividir_nodos</a></div><div class="ttdeci">Nodo * dividir_nodos(Nodo *&amp;, std::string, int)</div><div class="ttdef"><b>Definition:</b> <a href="_radix_tree_8cpp_source.html#l00044">RadixTree.cpp:44</a></div></div>
+<div class="ttc" id="aclass_radix_tree_html_ae369400784ab9515006abd3ea3124b58"><div class="ttname"><a href="class_radix_tree.html#ae369400784ab9515006abd3ea3124b58">RadixTree::imprimir</a></div><div class="ttdeci">void imprimir(Nodo *)</div><div class="ttdef"><b>Definition:</b> <a href="_radix_tree_8cpp_source.html#l00157">RadixTree.cpp:157</a></div></div>
+<div class="ttc" id="aclass_radix_tree_html_aeaf53a7077bf7a40c4744eb877f0b930"><div class="ttname"><a href="class_radix_tree.html#aeaf53a7077bf7a40c4744eb877f0b930">RadixTree::sufijo</a></div><div class="ttdeci">std::string sufijo</div><div class="ttdef"><b>Definition:</b> <a href="_radix_tree_8h_source.html#l00006">RadixTree.h:6</a></div></div>
+<div class="ttc" id="aclass_radix_tree_html_af060150b29dad53ba39a1cf29e1d5bcc"><div class="ttname"><a href="class_radix_tree.html#af060150b29dad53ba39a1cf29e1d5bcc">RadixTree::hoja_izquierda</a></div><div class="ttdeci">bool hoja_izquierda(Nodo *)</div><div class="ttdef"><b>Definition:</b> <a href="_radix_tree_8cpp_source.html#l00033">RadixTree.cpp:33</a></div></div>
+<div class="ttc" id="aclass_radix_tree_html_af87a8be1cdcae68012206ff3d785c7d0"><div class="ttname"><a href="class_radix_tree.html#af87a8be1cdcae68012206ff3d785c7d0">RadixTree::insertar</a></div><div class="ttdeci">Nodo * insertar(std::string, Nodo *&amp;)</div><div class="ttdef"><b>Definition:</b> <a href="_radix_tree_8cpp_source.html#l00077">RadixTree.cpp:77</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>
