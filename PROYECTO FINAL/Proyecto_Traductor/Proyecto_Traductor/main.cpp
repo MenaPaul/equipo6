@@ -225,7 +225,7 @@ int main()
 			std::setlocale(LC_ALL, ".UTF-8");
 			cout << "" << endl;
 			cout << "" << endl;
-			cout << "" << endl;
+			
 			cout << "Ingrese una palabra en ingles:"<<endl;
 			cin>> test;
 			

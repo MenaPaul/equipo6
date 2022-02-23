@@ -1,11 +1,11 @@
 ﻿  main.cpp
-D:\2. I. DE SOFTWARE\Semestre\3er semestre\Estructura de Datos\Team4-DataStructure-Final\Team4-DataStructure-Final\II-PARCIAL\Proyecto_Traductor\Proyecto_Traductor\main.cpp(52,20): warning C4018: '<=': no coinciden signed/unsigned
-D:\2. I. DE SOFTWARE\Semestre\3er semestre\Estructura de Datos\Team4-DataStructure-Final\Team4-DataStructure-Final\II-PARCIAL\Proyecto_Traductor\Proyecto_Traductor\main.cpp(56,23): warning C4018: '<': no coinciden signed/unsigned
-D:\2. I. DE SOFTWARE\Semestre\3er semestre\Estructura de Datos\Team4-DataStructure-Final\Team4-DataStructure-Final\II-PARCIAL\Proyecto_Traductor\Proyecto_Traductor\main.cpp(67,23): warning C4018: '<': no coinciden signed/unsigned
-D:\2. I. DE SOFTWARE\Semestre\3er semestre\Estructura de Datos\Team4-DataStructure-Final\Team4-DataStructure-Final\II-PARCIAL\Proyecto_Traductor\Proyecto_Traductor\main.cpp(77,23): warning C4018: '<': no coinciden signed/unsigned
-D:\2. I. DE SOFTWARE\Semestre\3er semestre\Estructura de Datos\Team4-DataStructure-Final\Team4-DataStructure-Final\II-PARCIAL\Proyecto_Traductor\Proyecto_Traductor\main.cpp(87,23): warning C4018: '<': no coinciden signed/unsigned
-D:\2. I. DE SOFTWARE\Semestre\3er semestre\Estructura de Datos\Team4-DataStructure-Final\Team4-DataStructure-Final\II-PARCIAL\Proyecto_Traductor\Proyecto_Traductor\main.cpp(97,23): warning C4018: '<': no coinciden signed/unsigned
-D:\2. I. DE SOFTWARE\Semestre\3er semestre\Estructura de Datos\Team4-DataStructure-Final\Team4-DataStructure-Final\II-PARCIAL\Proyecto_Traductor\Proyecto_Traductor\main.cpp(107,23): warning C4018: '<': no coinciden signed/unsigned
-D:\2. I. DE SOFTWARE\Semestre\3er semestre\Estructura de Datos\Team4-DataStructure-Final\Team4-DataStructure-Final\II-PARCIAL\Proyecto_Traductor\Proyecto_Traductor\main.cpp(132,20): warning C4018: '<': no coinciden signed/unsigned
-D:\2. I. DE SOFTWARE\Semestre\3er semestre\Estructura de Datos\Team4-DataStructure-Final\Team4-DataStructure-Final\II-PARCIAL\Proyecto_Traductor\Proyecto_Traductor\main.cpp(153,20): warning C4018: '<': no coinciden signed/unsigned
-  Proyecto_Traductor.vcxproj -> D:\2. I. DE SOFTWARE\Semestre\3er semestre\Estructura de Datos\Team4-DataStructure-Final\Team4-DataStructure-Final\II-PARCIAL\Proyecto_Traductor\Debug\Proyecto_Traductor.exe
+C:\Users\kevin\Documents\ESTRUCTURA DE DATOS\grupo 6\PROYECTO FINAL\Proyecto_Traductor\Proyecto_Traductor\main.cpp(52,20): warning C4018: '<=': no coinciden signed/unsigned
+C:\Users\kevin\Documents\ESTRUCTURA DE DATOS\grupo 6\PROYECTO FINAL\Proyecto_Traductor\Proyecto_Traductor\main.cpp(56,23): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\kevin\Documents\ESTRUCTURA DE DATOS\grupo 6\PROYECTO FINAL\Proyecto_Traductor\Proyecto_Traductor\main.cpp(67,23): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\kevin\Documents\ESTRUCTURA DE DATOS\grupo 6\PROYECTO FINAL\Proyecto_Traductor\Proyecto_Traductor\main.cpp(77,23): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\kevin\Documents\ESTRUCTURA DE DATOS\grupo 6\PROYECTO FINAL\Proyecto_Traductor\Proyecto_Traductor\main.cpp(87,23): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\kevin\Documents\ESTRUCTURA DE DATOS\grupo 6\PROYECTO FINAL\Proyecto_Traductor\Proyecto_Traductor\main.cpp(97,23): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\kevin\Documents\ESTRUCTURA DE DATOS\grupo 6\PROYECTO FINAL\Proyecto_Traductor\Proyecto_Traductor\main.cpp(107,23): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\kevin\Documents\ESTRUCTURA DE DATOS\grupo 6\PROYECTO FINAL\Proyecto_Traductor\Proyecto_Traductor\main.cpp(132,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\kevin\Documents\ESTRUCTURA DE DATOS\grupo 6\PROYECTO FINAL\Proyecto_Traductor\Proyecto_Traductor\main.cpp(153,20): warning C4018: '<': no coinciden signed/unsigned
+  Proyecto_Traductor.vcxproj -> C:\Users\kevin\Documents\ESTRUCTURA DE DATOS\grupo 6\PROYECTO FINAL\Proyecto_Traductor\Debug\Proyecto_Traductor.exe
